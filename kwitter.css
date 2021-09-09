@@ -1,0 +1,93 @@
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+
+
+/* Background-Image to linear-gradient for body */
+  .body-background{
+    background-image: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+  }
+
+.container{
+  background-color: white;
+  height: 90%;
+  width: 30%;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+}
+
+.btn-info{
+  background-image: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+  width: 250px;
+  border-radius: 50px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 500px;background: rgba(255,255,255,0.8);
+  margin-bottom: 300px;
+  margin-right: 9555px;
+  margin-bottom: 20%;
+}
+.input_div_message_page label
+{
+	color: rgb(0, 0, 0);
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+
+
+
+body{
+  background-image: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+}
